@@ -1,0 +1,20 @@
+{
+    "nome": "João",
+    "idade": 30,
+    "email": "joao@example.com",
+    "telefones": ["(123) 456-7890", "(987) 654-3210"],
+    "endereço": {
+      "rua": "123 Rua Principal",
+      "cidade": "Cidade Exemplo",
+      "CEP": "12345-678"
+    }
+  }
+  {
+    "nome": "Maria",
+    "idade": 25,
+    "cidade": "São Paulo",
+    "email": "maria@example.com",
+    "telefones": ["(11) 1234-5678", "(11) 9876-5432"],
+    "casado": false
+  }
+  
