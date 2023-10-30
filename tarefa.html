@@ -1,0 +1,38 @@
+//jquery
+<!DOCTYPE html>
+<html>
+<head> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <button id="myButton">Clique-me</button>
+  <div id="myDiv">Texto inicial</div>
+  <script>
+    $(document).ready(function(){
+      $("#myButton").click(function(){
+        $("#myDiv").text("Texto modificado");
+      });
+    });
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <button id="loadData">Carregar Dados</button>
+  <div id="data"></div>
+  <script>
+    $(document).ready(function(){
+      $("#loadData").click(function(){
+        $.get("dados.json", function(data){
+          $("#data").text(data.message);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
